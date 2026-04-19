@@ -110,9 +110,13 @@
 <summary><strong>6. Što su podupiti i navedite primjer?</strong></summary>
 
 **Podupit** je SELECT iskaz ugnježđen u drugom SELECT iskazu.
+  
   SELECT ImePrezime, RadnoMjesto, plaća 
+  
   FROM djelatnici 
+  
   WHERE plaća=(SELECT MIN(plaća) 
+    
     FROM djelatnici);
 
 </details> 
@@ -142,6 +146,7 @@ Koriste se za:
 <summary><strong>8. U čemu je razlika između pogleda i relacije (tablice)?</strong></summary>
 
 **TABLICE** – fizička pohrana podataka na disk te oni postoje neovisno  o upitima, zauzima memorisjki prostor, podaci se mijenjaju pomoću naredba INSERT, UPDATE, DELETE
+
 **POGLEDI** – pohranjuju samo definiciju upita, svaki put kada se pozove, izvršava upit iznova, podaci dolaze iz osnovnih tablica, zauzima gotovo nikakav prostor
 
 </details> 
