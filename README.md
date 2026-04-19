@@ -21,6 +21,7 @@
    - Osigurava konzistentnost baze podataka
   
 </details> 
+
 ---
 <br>
 <br> 
@@ -45,6 +46,7 @@
 **Sinonim (Synonym)** - alternativno ime za drugi objekt baze podataka.
 
 </details> 
+
 ---
 <br>
 <br> 
