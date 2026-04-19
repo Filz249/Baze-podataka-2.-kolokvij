@@ -15,7 +15,8 @@
 4. Mogu ga koristiti korisnici različitog profila: DB administratori, aplikativni programeri, neprofesionalni korisnici i sl.
    
 5. Osigurava naredbe za različite zadaće uključujući:
-   - Upite nad podacima  Dodavanje, mijenjanje i brisanje redaka u tablicama
+   - Upite nad podacima
+   - Dodavanje, mijenjanje i brisanje redaka u tablicama
    - Kreiranje, mijenjanje i brisanje objekata sheme
    - Kontrolu pristupa bazi podataka i objektima sheme
    - Osigurava konzistentnost baze podataka
