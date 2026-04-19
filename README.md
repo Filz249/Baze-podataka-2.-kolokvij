@@ -319,7 +319,9 @@ Svrha im je ubrzavanje dohvata podataka i izbjegavanje sporog linearnog pretraž
 **Konzistentnost (engl. consistency)** – transakcija mora transformirati bazu iz jednog konzistentnog stanja u drugo. 
 **Izoliranost (engl. isolation)** – transakcije se izvršavaju neovisno jedna od druge i djelovanje mora biti isto kao da se obavljaju jedna iza druge 
 **Trajnost (engl. durability)** – rezultat uspješno završenih (potvrđenih) transakcija se trajno bilježi u bazu podataka i ne smije se izgubiti zbog eventualnih naknadnih grešaka.
+
 </details> 
+
 ---
 <br>
 <br> 
