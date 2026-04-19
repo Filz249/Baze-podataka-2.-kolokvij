@@ -70,6 +70,7 @@
 12. IMAGE
     
 </details> 
+
 ---
 <br>
 <br> 
@@ -85,6 +86,7 @@
 6. Ugrađeni SQL izrazi (Embedded SQL Statements)
 
 </details> 
+
 ---
 <br>
 <br> 
@@ -98,6 +100,7 @@
 4. SELF JOINS
 
 </details> 
+
 ---
 <br>
 <br> 
@@ -112,6 +115,7 @@
     FROM djelatnici);
 
 </details> 
+
 ---
 <br>
 <br> 
@@ -128,6 +132,7 @@ Koriste se za:
 4. povezivanje više tablica u jedan prikaz
 
 </details> 
+
 ---
 <br>
 <br> 
@@ -139,6 +144,7 @@ Koriste se za:
 **POGLEDI** – pohranjuju samo definiciju upita, svaki put kada se pozove, izvršava upit iznova, podaci dolaze iz osnovnih tablica, zauzima gotovo nikakav prostor
 
 </details> 
+
 ---
 <br>
 <br> 
@@ -156,6 +162,7 @@ Koriste se:
 ▪	Kada trebaš vrijednost direktno u SELECT upitu
 
 </details> 
+
 ---
 <br>
 <br> 
@@ -172,7 +179,8 @@ Koriste se:
 ▪	Kada želiš povećati sigurnost (korisnici ne vide tablice, samo pozivaju proceduru) 
 ▪	Kada trebaš INSERT, UPDATE ili DELETE operacije
 
-</details> 
+</details>
+
 ---
 <br>
 <br> 
@@ -190,6 +198,7 @@ Koriste se za:
 ▪	Sigurnost (sprječavanje neovlaštenog brisanja podataka) 
 
 </details> 
+
 ---
 <br>
 <br> 
@@ -203,7 +212,8 @@ Koriste se za:
 **Condition (uvjet)** – provjerava se određeni uvjet
 **Action (akcija)** – ako je uvjet ispunjen, izvršava se neka radnja
 
-</details> 
+</details>
+
 ---
 <br>
 <br> 
@@ -221,6 +231,7 @@ Referencijalni integritet (eng. Referential integrity)
 Opća integritetska ograničenja (eng. General integrity constraints)
 
 </details> 
+
 ---
 <br>
 <br> 
@@ -237,6 +248,7 @@ Korisnik neovlašteno mijenja podatake
 Korisnik neovlašteno briše podatake
 
 </details> 
+
 ---
 <br>
 <br> 
@@ -249,6 +261,7 @@ Fizička organizacija baze podataka ne utječe na rezultate operacija s podacima
 Utječe na učinkovitost baze podataka jer djelotvornija fizička organizacija brže pristupa podacima
 
 </details> 
+
 ---
 <br>
 <br> 
@@ -262,6 +275,7 @@ Utječe na učinkovitost baze podataka jer djelotvornija fizička organizacija b
 4. B-stablo (eng. B-tree)
 
 </details> 
+
 ---
 <br>
 <br> 
@@ -276,7 +290,8 @@ Utječe na učinkovitost baze podataka jer djelotvornija fizička organizacija b
 - U svakom čvoru se bira odgovarajući pokazivač prema vrijednosti ključa
 - Postupak se ponavlja dok se ne dođe do lista gdje se nalazi traženi podatak
 
-</details> 
+</details>
+
 ---
 <br>
 <br> 
@@ -291,7 +306,8 @@ Kreiraju se nad jednim ili više atributa (stupaca), najčešće su organizirani
 
 Svrha im je ubrzavanje dohvata podataka i izbjegavanje sporog linearnog pretraživanja svih zapisa
 
-</details> 
+</details>
+
 ---
 <br>
 <br> 
@@ -315,6 +331,7 @@ Svrha im je ubrzavanje dohvata podataka i izbjegavanje sporog linearnog pretraž
 Ekskluzivno zaključavanje blokira sve ostale pristupe tako nijedna druga transakcija ne može dobiti nikakvo zaključavanje, mora čekati dok se ekskluzivni zaključak ne oslobodi.
 
 </details> 
+
 ---
 <br>
 <br> 
@@ -325,6 +342,7 @@ Ekskluzivno zaključavanje blokira sve ostale pristupe tako nijedna druga transa
 **Distribuirana baza podataka** je skup baza podataka smještenih na više različitih računala i prostornih lokaliteta, a s kojima korisnik radi kao da je u pitanju jedna jedinstvena baza.
 
 </details> 
+
 ---
 <br>
 <br> 
@@ -339,6 +357,7 @@ Ekskluzivno zaključavanje blokira sve ostale pristupe tako nijedna druga transa
 4. Potčinjeni odgovara s “potvrđeno”.
 
 </details> 
+
 ---
 <br>
 <br> 
@@ -356,6 +375,7 @@ Ekskluzivno zaključavanje blokira sve ostale pristupe tako nijedna druga transa
 8. Svaki DBMS učestvuje u najmanje jednoj globalnoj aplikaciji.
 
 </details> 
+
 ---
 <br>
 <br> 
@@ -368,7 +388,8 @@ Ekskluzivno zaključavanje blokira sve ostale pristupe tako nijedna druga transa
 3. Globalni katalog sustava
 4. Distribuirana DBMS komponenta
    
-</details> 
+</details>
+
 ---
 <br>
 <br> 
@@ -381,7 +402,8 @@ Ekskluzivno zaključavanje blokira sve ostale pristupe tako nijedna druga transa
 3. Potpuna replikacija
 4. Selektivna replikacija
 
-</details> 
+</details>
+
 ---
 <br>
 <br> 
@@ -398,6 +420,7 @@ Najčešće:
 4. Objektne orijentirane baze podataka
    
 </details> 
+
 ---
 <br>
 <br> 
@@ -420,6 +443,7 @@ Najčešće:
 Jer opisuju izvore podataka, strukturu i značenje podataka, sadrže informacije o procesima (ETL), transformacijama i prijenosu podataka, omogućuju integraciju, uniformnost i konzistentnost podataka te pomažu korisnicima da razumiju i pravilno koriste podatke
 
 </details> 
+
 ---
 <br>
 <br> 
@@ -430,7 +454,8 @@ Jer opisuju izvore podataka, strukturu i značenje podataka, sadrže informacije
 
 **Baze podataka (operativne)** služe za svakodnevne transakcije (unos, izmjena, brisanje), podaci su detaljni i često se mijenjaju dok **skladišta podataka (data warehouse)** služe za analizu i donošenje odluka podaci su integrirani, povijesni i uglavnom se ne mijenjaju
 
-</details> 
+</details>
+
 ---
 <br>
 <br> 
@@ -446,6 +471,7 @@ Najčešći model je **Dimenzijski model**, a njegova osnovna svojstva su:
 - Svaka dimenzijska tablica ima jedinstveni primarni ključ koji odgovara točno jednom dijelu složenog ključa u vrijednosnoj tablici. To stvara strukturu sličnu zvijezdi, pa se ovaj model često naziva i zvijezda spajanje.
 
 </details> 
+
 ---
 <br>
 <br> 
@@ -468,6 +494,7 @@ Fizička opisuje kako su podaci stvarno pohranjeni na disku:
 - Kontrolna datoteka (eng. control file)
   
 </details> 
+
 ---
 <br>
 <br>
