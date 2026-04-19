@@ -434,6 +434,7 @@ Najčešće:
 **Skladište podataka** je predmetno orijentirani, integrirani, relativno stabilni i vremenski orijentirani skup podataka u funkciji potpore odlučivanja menadžera.
 
 </details> 
+
 ---
 <br>
 <br> 
