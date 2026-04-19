@@ -29,12 +29,19 @@
 <summary><strong>2. Navedite i opišite objekte SQL-a.</strong></summary>
 
 **Baza podataka (Database)** - najviša razina organizacije (spremnik za sve ostale objekte).
+
 **Tablica (Table) ** - fizički pohranjuje podatke u retke i stupce.
+
 **Pogled ili virtualna tablica (View)** - spremljeni SELECT upit koji se ponaša kao tablica, ali ne pohranjuje podatke.
+
 **Pravilo integriteta (Constraint)** - ograničenja koja osiguravaju ispravnost i konzistentnost podataka.
+
 **Indeks (Index)** - struktura za ubrzavanje pretraživanja kao kazalo u knjizi.
+
 **Procedura (Stored Procedure)** - spremljeni skup SQL naredbi koji se može pozivati po imenu, poput funkcije.
+
 **Okidač (Trigger)** - automatski se izvršava kada se dogodi određena akcija na tablici
+
 **Sinonim (Synonym)** - alternativno ime za drugi objekt baze podataka.
 
 </details> 
