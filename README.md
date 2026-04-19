@@ -161,10 +161,15 @@ Koriste se za:
 **Funkcija** je potprogram koji u pozivajući program vraća rezultat kao povratnu vrijednost
 
 Koriste se:
+
 ▪	Kada isti izračun koristiš na više mjesta  
+
 ▪	Kada želiš pojednostaviti složene upite 
+
 ▪	Kada trebaš transformirati ili formatirati podatke 
+
 ▪	Kada želiš enkapsulirati poslovnu logiku 
+
 ▪	Kada trebaš vrijednost direktno u SELECT upitu
 
 </details> 
@@ -179,10 +184,15 @@ Koriste se:
 **Procedura** je potprogram koji u pozivajući program ne vraća rezultat kao povratnu vrijednost
 
 Koriste se:
+
 ▪	Kada trebaš izvršiti složenu poslovnu logiku  
+
 ▪	Kada iste operacije ponavljaš više puta  
+
 ▪	Kada radiš s transakcijama (više povezanih operacija)  
+
 ▪	Kada želiš povećati sigurnost (korisnici ne vide tablice, samo pozivaju proceduru) 
+
 ▪	Kada trebaš INSERT, UPDATE ili DELETE operacije
 
 </details>
@@ -197,10 +207,15 @@ Koriste se:
 **Okidač** je programski kod koji se izvršava automatski prilikom izvođenja specificirane DML operacije nad specificiranom tablicom
 
 Koriste se za:
+
 ▪	Logiranje (automatsko bilježenje svih promjena u bazi)
+
 ▪	Validaciju (provjera ispravnosti podataka pri unosu)  
+
 ▪	Reviziju(Audit) (praćenje tko je i kada mijenjao podatke)  
+
 ▪	Automatsko ažuriranje (održavanje izvedenih podataka)  
+
 ▪	Sigurnost (sprječavanje neovlaštenog brisanja podataka) 
 
 </details> 
@@ -215,7 +230,9 @@ Koriste se za:
 **ECA** odnosno, **Event–Condition–Action** (Događaj–Uvjet–Akcija) je princip koji se koristi u bazama podataka (npr. kod triggera):
 
 **Event (događaj)** – nešto se dogodi (npr. INSERT, UPDATE, DELETE)
+
 **Condition (uvjet)** – provjerava se određeni uvjet
+
 **Action (akcija)** – ako je uvjet ispunjen, izvršava se neka radnja
 
 </details>
@@ -227,14 +244,21 @@ Koriste se za:
 <details>
 <summary><strong>13. Što je integritet baze podataka i navedite integritetska ograničenja?</strong></summary>
 
-**Integritet baze** podataka se odnosi na ispravnost podataka koji se u njoj nalaze
+**Integritet baze** podataka se odnosi na ispravnost podataka koji se u njoj nalaze.
 
-Entitetski integritet (eng. Entity integrity)
-Domenski integritet (eng. Domain integrity) 
-Ograničenja NULL vrijednosti (eng. Constraints on NULL) 
-Integritet ključa (eng. Key integrity) 
-Referencijalni integritet (eng. Referential integrity) 
-Opća integritetska ograničenja (eng. General integrity constraints)
+Ograničenja: 
+
+- Entitetski integritet (eng. Entity integrity)
+  
+- Domenski integritet (eng. Domain integrity)
+  
+- Ograničenja NULL vrijednosti (eng. Constraints on NULL)
+  
+- Integritet ključa (eng. Key integrity)
+  
+- Referencijalni integritet (eng. Referential integrity)
+  
+- Opća integritetska ograničenja (eng. General integrity constraints)
 
 </details> 
 
@@ -249,9 +273,11 @@ Opća integritetska ograničenja (eng. General integrity constraints)
 
 Može biti narušena na više načina: 
 
-Korisnik neovlašteno čita podatake
-Korisnik neovlašteno mijenja podatake 
-Korisnik neovlašteno briše podatake
+- Korisnik neovlašteno čita podatake
+  
+- Korisnik neovlašteno mijenja podatake
+  
+- Korisnik neovlašteno briše podatake
 
 </details> 
 
@@ -275,10 +301,15 @@ Utječe na učinkovitost baze podataka jer djelotvornija fizička organizacija b
 <details>
 <summary><strong>16. Koje su najčešće metode fizičke organizacije baze podataka?</strong></summary>
 
-1. Neporedana datoteka (eng. heap) 
-2. Poredana datoteka (eng. sorted file) 
-3. Raspršena datoteka (eng. hash file)  Indeksno-slijedna organizacija (eng. index-sequential file) 
-4. B-stablo (eng. B-tree)
+1. Neporedana datoteka (eng. heap)
+   
+2. Poredana datoteka (eng. sorted file)
+   
+3. Raspršena datoteka (eng. hash file)
+
+4. Indeksno-slijedna organizacija (eng. index-sequential file) 
+
+5. B-stablo (eng. B-tree)
 
 </details> 
 
@@ -292,8 +323,11 @@ Utječe na učinkovitost baze podataka jer djelotvornija fizička organizacija b
 **B-stablo** je balansirano stablo koje se koristi za brzo pretraživanje podataka u bazi.
 
 - Balansirano znači da je put od korijena do svakog lista jednak, pa je pristup podacima uvijek učinkovit
+  
 - Pretraga počinje od korijena
+  
 - U svakom čvoru se bira odgovarajući pokazivač prema vrijednosti ključa
+  
 - Postupak se ponavlja dok se ne dođe do lista gdje se nalazi traženi podatak
 
 </details>
@@ -322,8 +356,11 @@ Svrha im je ubrzavanje dohvata podataka i izbjegavanje sporog linearnog pretraž
 <summary><strong>19. Nabrojite i pojasnite tzv. ACID osobine transakcija.</strong></summary>
 
 **Atomiziranost (engl. atomicity)** – ‘sve ili ništa’, predstavlja nedjeljivost transakcije. Transakcija se mora obaviti čitava ili ništa
+
 **Konzistentnost (engl. consistency)** – transakcija mora transformirati bazu iz jednog konzistentnog stanja u drugo. 
+
 **Izoliranost (engl. isolation)** – transakcije se izvršavaju neovisno jedna od druge i djelovanje mora biti isto kao da se obavljaju jedna iza druge 
+
 **Trajnost (engl. durability)** – rezultat uspješno završenih (potvrđenih) transakcija se trajno bilježi u bazu podataka i ne smije se izgubiti zbog eventualnih naknadnih grešaka.
 
 </details> 
@@ -359,9 +396,12 @@ Ekskluzivno zaključavanje blokira sve ostale pristupe tako nijedna druga transa
 <summary><strong>22. Pojasnite način funkcioniranja protokola dvofaznog potvrđivanja transakcija kod distribuiranih baza podataka!</strong></summary>
 
 
-1. Glavni čvor šalje poruku o ažuriranju potčinjenim čvorovima: “napravi brzu potvrdu prijema” 
-2. Potčinjeni čvor odgovara s “potvrđujem prijem” 
+1. Glavni čvor šalje poruku o ažuriranju potčinjenim čvorovima: “napravi brzu potvrdu prijema”
+   
+2. Potčinjeni čvor odgovara s “potvrđujem prijem”
+   
 3. Glavni šalje poruku “potvrdi bazu podataka”
+   
 4. Potčinjeni odgovara s “potvrđeno”.
 
 </details> 
@@ -373,13 +413,20 @@ Ekskluzivno zaključavanje blokira sve ostale pristupe tako nijedna druga transa
 <details>
 <summary><strong>23. Značajke DDBMS-a.</strong></summary>
 
-1. Skup logički povezanih djeljivih podataka 
-2. Podaci su razdvojeni na više fragmenata 
-3. Fragmenti se mogu replicirati 
-4. Fragmenti/Replikacije pripadaju lokacijama 
+1. Skup logički povezanih djeljivih podataka
+   
+2. Podaci su razdvojeni na više fragmenata
+   
+3. Fragmenti se mogu replicirati
+   
+4. Fragmenti/Replikacije pripadaju lokacijama
+   
 5. Lokacije su povezane komunikacijskom mrežom
-6. Podaci na svakoj lokaciji su pod nadzorom DBMS-a 
-7. DBMS na svakoj lokaciji može upravljati lokalnim aplikacijama autonomno 
+    
+6. Podaci na svakoj lokaciji su pod nadzorom DBMS-a
+     
+7. DBMS na svakoj lokaciji može upravljati lokalnim aplikacijama autonomno
+    
 8. Svaki DBMS učestvuje u najmanje jednoj globalnoj aplikaciji.
 
 </details> 
@@ -391,9 +438,12 @@ Ekskluzivno zaključavanje blokira sve ostale pristupe tako nijedna druga transa
 <details>
 <summary><strong>24. Navedite 4 osnovna dijela DDBMS-a.</strong></summary>
 
-1. Lokalna DBMS komponenta 
+1. Lokalna DBMS komponenta
+   
 2. Komunikacijska komponenta
+   
 3. Globalni katalog sustava
+   
 4. Distribuirana DBMS komponenta
    
 </details>
@@ -406,8 +456,11 @@ Ekskluzivno zaključavanje blokira sve ostale pristupe tako nijedna druga transa
 <summary><strong>25. Navedite 4 osnovne strategije alociranja.</strong></summary>
 
 1. Centralizirana
+   
 2. Fragmentirana
+   
 3. Potpuna replikacija
+   
 4. Selektivna replikacija
 
 </details>
@@ -422,9 +475,13 @@ Ekskluzivno zaključavanje blokira sve ostale pristupe tako nijedna druga transa
 **NoSQL baze** ne-relacijske baze podataka novije generacije, većinom su otvorenog koda, horizontalno skalabilne, jednostavan API, BASE (nisu ACID), rade s velikom količinom podataka itd.
 
 Najčešće:
-1. Dokumenti 
+
+1. Dokumenti
+   
 2. Ključ-vrijednost
+   
 3. Grafovi
+   
 4. Objektne orijentirane baze podataka
    
 </details> 
@@ -491,15 +548,21 @@ Najčešći model je **Dimenzijski model**, a njegova osnovna svojstva su:
 **Logička** opisuje kako su podaci organizirani s korisničkog pogleda:
 
 - Tabelarni prostor (eng. tablespace)
-- Objekt sheme (eng. schema object) -
+  
+- Objekt sheme (eng. schema object)
+  
 - Segment (eng. segment)
+  
 - Mjera (eng. extent)
+  
 - Blok podataka (eng. data block)
 
 Fizička opisuje kako su podaci stvarno pohranjeni na disku:
 
 - Datoteka podataka (eng. data file)
-- Datoteka za obnavljanje (eng. redo log file)
+  
+- Datoteka za obnavljanje (eng. redo log file
+  
 - Kontrolna datoteka (eng. control file)
   
 </details> 
